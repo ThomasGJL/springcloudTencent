@@ -1,0 +1,14 @@
+server:
+  port: 8095
+
+spring:
+  application:
+    name: polaris-provider
+  cloud:
+    polaris:
+      address: http://127.0.0.1:8091
+      discovery:
+        enabled: true
+        namespace: deafult
+
+
